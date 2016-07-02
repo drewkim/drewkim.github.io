@@ -6,8 +6,6 @@ title: "Drew Kim"
 # description: "..."
 
 gems:
-  - jemoji
-  - jekyll-gist
 exclude:
   - "README.md"
   - "CHANGELOG.md"
