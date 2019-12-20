@@ -1,0 +1,15 @@
+.container{
+    width: 800px;
+    padding: 50 50 50 50;
+}
+.pictures{
+    width: 100%;
+}
+.slick-slide{
+    width: 100%;
+    margin: auto;
+}
+.slick-slide img{
+    width: 100%;
+    margin: 0 auto;
+}
