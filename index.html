@@ -8,11 +8,11 @@
     <body>
         <div class="container">
             <h1>GERGOT HALL OF FAME</h1>
-            <div class="pictures">
-                <div><img src="img/parham.jpg"></div>
-                <div><img src="img/drew.jpg"></div>
-                <div><img src="img/matt.jpg"></div>
-                <div><img src="img/sameer.jpg"></div>
+            <div class="row">
+                <div class="column"><img src="img/parham.jpg"></div>
+                <div class="column"><img src="img/drew.jpg"></div>
+                <div class="column"><img src="img/matt.jpg"></div>
+                <div class="column"><img src="img/sameer.jpg"></div>
             </div>
         </div>
     </body>
@@ -21,17 +21,4 @@
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="slick/slick.min.js"></script>
 
-    <script type="text/javascript">
-        $(document).ready(function(){
-            $('.pictures').slick({
-              slidesToShow: 3,
-              slidesToScroll: 1,
-              autoplay: true,
-              autoplaySpeed: 2000,
-              fade: true,
-              cssEase: 'linear',
-              centerMode: true
-          });
-        });
-    </script>
 </html>
